@@ -1788,3 +1788,93 @@ button:hover .st-keyframe-video-play {
   }
 
 }
+
+
+/* Premium Hindi-first presentation layer */
+html[lang="hi"] {
+  --font-family-ui-default: "Noto Sans Devanagari", "Noto Sans", "Inter", "Segoe UI", sans-serif;
+}
+
+html[lang="hi"] body {
+  font-family: var(--font-family-ui-default);
+  letter-spacing: -0.008em;
+}
+
+:root {
+  --premium-glow: 0 0 0 1px rgba(59, 130, 246, 0.10), 0 18px 55px rgba(15, 23, 42, 0.10);
+  --premium-gradient: linear-gradient(135deg, rgba(59,130,246,.16), rgba(34,211,238,.08) 45%, rgba(245,158,11,.08));
+}
+
+.dark {
+  --premium-glow: 0 0 0 1px rgba(96,165,250,.12), 0 24px 70px rgba(0,0,0,.42);
+  --premium-gradient: linear-gradient(135deg, rgba(59,130,246,.18), rgba(34,211,238,.08) 50%, rgba(245,158,11,.10));
+}
+
+.premium-surface {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--ui-border-soft);
+  background: var(--ui-surface-panel);
+  box-shadow: var(--premium-glow);
+  backdrop-filter: saturate(150%) blur(22px);
+  -webkit-backdrop-filter: saturate(150%) blur(22px);
+}
+
+.premium-surface::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: var(--premium-gradient);
+  opacity: .55;
+}
+
+.premium-interactive {
+  transition: transform var(--duration-base) var(--ease-out-quint),
+    border-color var(--duration-base) var(--ease-standard),
+    box-shadow var(--duration-base) var(--ease-standard),
+    background-color var(--duration-base) var(--ease-standard);
+}
+
+.premium-interactive:hover {
+  transform: translateY(-1px);
+  border-color: rgba(var(--accent-rgb) / .28);
+  box-shadow: var(--premium-glow), var(--ui-glow-accent, none);
+}
+
+.premium-interactive:focus-visible {
+  outline: 2px solid rgb(var(--accent-rgb) / .72);
+  outline-offset: 2px;
+}
+
+html[lang="hi"] ::selection {
+  background: rgb(var(--accent-rgb) / .28);
+  color: inherit;
+}
+
+html[lang="hi"] ::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+
+html[lang="hi"] ::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background: rgb(var(--text-rgb) / .16);
+  background-clip: padding-box;
+}
+
+html[lang="hi"] ::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--accent-rgb) / .42);
+  background-clip: padding-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .premium-interactive {
+    transition: none;
+  }
+
+  .premium-interactive:hover {
+    transform: none;
+  }
+}

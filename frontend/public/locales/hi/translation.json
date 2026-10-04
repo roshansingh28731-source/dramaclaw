@@ -1,0 +1,114 @@
+{
+  "header": {
+    "settings": "सेटिंग्स",
+    "settingsWithWarning": "सेटिंग्स — कॉन्फ़िगरेशन बाकी है",
+    "settingsWarningBubble": "सेटअप बाकी है",
+    "dismissSettingsWarningBubble": "सेटअप रिमाइंडर बंद करें",
+    "notifications": "घोषणा केंद्र",
+    "account": {
+      "open": "अकाउंट मेन्यू खोलें",
+      "changeAvatar": "प्रोफ़ाइल फोटो बदलें",
+      "changePassword": "पासवर्ड बदलें",
+      "setPassword": "पासवर्ड सेट करें",
+      "selectLanguage": "भाषा चुनें",
+      "languageChinese": "中文",
+      "languageEnglish": "English",
+      "languageVietnamese": "Tiếng Việt",
+      "languageHindi": "हिन्दी",
+      "phoneBinding": {
+        "title": "फ़ोन नंबर जोड़ें"
+      },
+      "passwordDialog": {
+        "title": "पासवर्ड बदलें"
+      },
+      "avatarDialog": {
+        "title": "प्रोफ़ाइल फोटो बदलें"
+      }
+    }
+  },
+  "app": {
+    "title": "सुपरटेल",
+    "subtitle": "AI कहानी और मीडिया निर्माण कार्यक्षेत्र",
+    "updateRequired": {
+      "title": "ऐप अपडेट हुआ है",
+      "description": "नया संस्करण लोड करने के लिए पेज रिफ्रेश करें।",
+      "refresh": "पेज रिफ्रेश करें"
+    },
+    "updateAvailable": {
+      "title": "नया संस्करण उपलब्ध है",
+      "description": "नई सुविधाएँ और सुधार पाने के लिए रिफ्रेश करें।",
+      "refresh": "अभी रिफ्रेश करें",
+      "dismiss": "बंद करें"
+    },
+    "routeError": {
+      "title": "पेज लोड नहीं हुआ",
+      "description": "पेज रिफ्रेश करके फिर कोशिश करें।"
+    },
+    "versionUpdate": {
+      "title": "नई सुविधाएँ लाइव हैं",
+      "confirm": "समझ गया",
+      "empty": "इस संस्करण की रिलीज़ जानकारी उपलब्ध नहीं है"
+    },
+    "logoHomeTooltip": "प्रोजेक्ट मैनेजमेंट सेंटर पर लौटें"
+  },
+  "nav": {
+    "home": "होम",
+    "sectionProject": "प्रोजेक्ट",
+    "sectionEpisode": "एपिसोड",
+    "switchProject": "प्रोजेक्ट बदलें",
+    "allProjects": "सभी प्रोजेक्ट",
+    "collapse": "समेटें",
+    "creation": "क्रिएशन",
+    "production": "प्रोडक्शन",
+    "tools": "टूल्स",
+    "creationMode": "क्रिएशन मोड",
+    "xiaji": "सीरीज़",
+    "xiajiMenu": "सीरीज़ मेन्यू",
+    "ingest": "कहानी स्रोत",
+    "assets": "एसेट लाइब्रेरी",
+    "characters": "किरदार",
+    "episodes": "एपिसोड स्टूडियो",
+    "script": "स्क्रिप्ट",
+    "literalScript": "डायलॉग स्क्रिप्ट",
+    "sketches": "स्केच",
+    "audio": "ऑडियो",
+    "video": "वीडियो",
+    "compose": "कम्पोज़",
+    "styles": "विज़ुअल स्टाइल",
+    "tasks": "टास्क सेंटर",
+    "taskCenter": "टास्क सेंटर",
+    "aiAssistant": "Xia Director",
+    "freezone": "फ्रीज़ोन"
+  },
+  "common": {
+    "loading": "लोड हो रहा है…",
+    "back": "वापस",
+    "error": "कुछ गलत हुआ",
+    "save": "सेव करें",
+    "cancel": "रद्द करें",
+    "delete": "डिलीट करें",
+    "confirm": "पुष्टि करें",
+    "ok": "ठीक है",
+    "generate": "जनरेट करें",
+    "upload": "अपलोड करें",
+    "stop": "रोकें",
+    "reupload": "फिर अपलोड करें",
+    "regenerate": "फिर जनरेट करें",
+    "generateNew": "नया जनरेट करें",
+    "preview": "प्रीव्यू",
+    "download": "डाउनलोड",
+    "copy": "कॉपी",
+    "comingSoon": "जल्द आ रहा है",
+    "use": "उपयोग करें",
+    "refresh": "रिफ्रेश",
+    "preparing": "तैयार हो रहा है…",
+    "new": "नया",
+    "edit": "एडिट",
+    "close": "बंद करें",
+    "success": "सफल",
+    "search": "खोजें",
+    "play": "चलाएँ",
+    "pause": "रोकें",
+    "retry": "फिर कोशिश करें"
+  }
+}
